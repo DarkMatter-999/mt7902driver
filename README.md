@@ -1,3 +1,7 @@
+## Disclaimer ❗
+This repository contains an outdated and non-functional driver. More recent work is being done on a different repository: [https://github.com/DarkMatter-999/mt7902-dkms](https://github.com/DarkMatter-999/mt7902-dkms). We are attempting to adapt the mt7921 driver, while that has shown some promise, a complete driver design would not be possible without assistance from MediaTek or would necessitate significant time and resources for reverse engineering.
+
+---
 
 # MT7902 Driver for Linux
 A newbie-friendly, temporary solution that encourages all contributions for long-term and stable use for MT7902 driver on Linux
@@ -36,7 +40,7 @@ This repository provides the necessary files and script to install the MT7902 Wi
    ```sh
    git clone https://github.com/Nevergiveup11837/mt7902driverforlinux.git
    cd mt7902driverforlinux
-   
+
 NOTES: You should use chmod +x install_wifi_driver.sh and sudo ./install_wifi_driver.sh to run the sh file corectly.
 After install you will need to reboot your system to apply changes.
 Encourage contributions to create a driver that runs directly and stably on Linux.
